@@ -1,0 +1,13 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"BT1","SW_Push_B3F-4055_12x12x7.3_Omron","SW_Push_TactileSwitch_12x12mm_DIP",15.738833,-39.515037,0.000000,bottom
+"BT2","SW_Push_B3F-4055_12x12x7.3_Omron","SW_Push_TactileSwitch_12x12mm_DIP",34.652944,-39.515037,0.000000,bottom
+"BT3","SW_Push_B3F-4055_12x12x7.3_Omron","SW_Push_TactileSwitch_12x12mm_DIP",53.567055,-39.515037,0.000000,bottom
+"BT4","SW_Push_B3F-4055_12x12x7.3_Omron","SW_Push_TactileSwitch_12x12mm_DIP",72.481167,-39.515037,0.000000,bottom
+"LE1","Led_Green_3mm_DIP","LED_D3.0mm_Red",5.969000,-14.525000,90.000000,bottom
+"LE2","Led_Red_3mm_DIP","LED_D3.0mm_Red",5.969000,-18.325000,-90.000000,bottom
+"LE3","Led_Red_3mm_DIP","LED_D3.0mm_Red",35.769000,-14.525000,90.000000,bottom
+"LE4","Led_Blue_3mm_DIP","LED_D3.0mm_Red",35.769000,-18.325000,-90.000000,bottom
+"LE5","Led_Green_3mm_DIP","LED_D3.0mm_Red",16.903833,-31.000000,180.000000,bottom
+"LE6","Led_Green_3mm_DIP","LED_D3.0mm_Red",35.817944,-31.000000,180.000000,bottom
+"LE7","Led_Green_3mm_DIP","LED_D3.0mm_Red",54.732055,-31.000000,180.000000,bottom
+"LE8","Led_Green_3mm_DIP","LED_D3.0mm_Red",73.646167,-31.000000,180.000000,bottom

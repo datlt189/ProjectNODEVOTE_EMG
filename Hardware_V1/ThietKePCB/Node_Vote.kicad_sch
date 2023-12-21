@@ -1,0 +1,91 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 041bf71f-f1cf-4845-b935-cf169ef39f79)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (bus (pts (xy 102.235 127.635) (xy 151.765 127.635))
+    (stroke (width 0) (type default))
+    (uuid d5233887-fa1d-4c92-ad5a-5a0e3ff4b7da)
+  )
+
+  (wire (pts (xy 95.25 73.66) (xy 95.25 95.885))
+    (stroke (width 0) (type default))
+    (uuid eff7e100-3122-4ffc-9e36-68ceb237f934)
+  )
+
+  (sheet (at 151.765 105.41) (size 57.15 43.815) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1626da5e-379d-4499-9e10-e110b38b5e85)
+    (property "Sheetname" "BUTTON" (at 151.765 104.6984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "BUTTON.kicad_sch" (at 151.765 149.8096 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "button{BUTTON}" output (at 151.765 127.635 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid b4b78fab-a055-4d72-a5a8-ded3ea80123f)
+    )
+    (instances
+      (project "Node_Vote"
+        (path "/041bf71f-f1cf-4845-b935-cf169ef39f79" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 66.04 36.83) (size 58.42 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 19828620-5417-4998-9bd7-ca012ffe9d23)
+    (property "Sheetname" "POWER" (at 66.04 36.1184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "POWER.kicad_sch" (at 66.04 74.2446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "ADC_BAT" output (at 95.25 73.66 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid bd0b9362-a8f1-41dd-a33c-7a8333e6df82)
+    )
+    (instances
+      (project "Node_Vote"
+        (path "/041bf71f-f1cf-4845-b935-cf169ef39f79" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 66.675 95.885) (size 35.56 64.135) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 98c8134c-b04a-4e35-8b8e-9646fb59969b)
+    (property "Sheetname" "esp8266" (at 66.675 95.1734 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "esp8266.kicad_sch" (at 66.675 160.6046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "ADC_BAT" input (at 95.25 95.885 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid fbf47475-009c-4bde-b2f0-a6e4c6b344c9)
+    )
+    (pin "button{BUTTON}" input (at 102.235 127.635 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 17140f41-d867-4e6b-a56b-bb70ff235471)
+    )
+    (instances
+      (project "Node_Vote"
+        (path "/041bf71f-f1cf-4845-b935-cf169ef39f79" (page "5"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
